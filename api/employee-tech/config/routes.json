@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employee-teches",
+      "handler": "employee-tech.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-teches/count",
+      "handler": "employee-tech.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-teches/:id",
+      "handler": "employee-tech.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employee-teches",
+      "handler": "employee-tech.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employee-teches/:id",
+      "handler": "employee-tech.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employee-teches/:id",
+      "handler": "employee-tech.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

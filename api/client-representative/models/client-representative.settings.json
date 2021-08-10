@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_representatives",
+  "info": {
+    "name": "Client_Representative"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FIrstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "clients": {
+      "collection": "clients",
+      "via": "client_representative"
+    }
+  }
+}

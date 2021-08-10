@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "name": "Employee",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Entitlement": {
+      "type": "text"
+    },
+    "IsOnBench": {
+      "type": "boolean"
+    },
+    "Level": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "HireDetailsId": {
+      "type": "integer"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "PositionAppliedId": {
+      "type": "integer"
+    },
+    "HiringRank": {
+      "type": "text"
+    },
+    "BackgroundCheckStatus": {
+      "type": "boolean"
+    },
+    "OnBoardingStatus": {
+      "type": "boolean"
+    },
+    "Source": {
+      "type": "text"
+    },
+    "LeverLink": {
+      "type": "string"
+    },
+    "Education": {
+      "type": "text"
+    },
+    "EmployeeType": {
+      "type": "string"
+    },
+    "IsBillable": {
+      "type": "boolean"
+    },
+    "BillRate": {
+      "type": "string"
+    },
+    "adresses": {
+      "model": "adresses"
+    },
+    "managerId": {
+      "model": "employee"
+    }
+  }
+}

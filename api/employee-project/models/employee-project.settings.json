@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_projects",
+  "info": {
+    "name": "Employee_Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employee": {
+      "model": "employee"
+    },
+    "Roll": {
+      "type": "string"
+    },
+    "BillRate": {
+      "type": "string"
+    },
+    "Assignation_rate": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "projects": {
+      "collection": "projects"
+    }
+  }
+}

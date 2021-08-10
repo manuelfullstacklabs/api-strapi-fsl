@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_teches",
+  "info": {
+    "name": "EmployeeTech",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "YearsOfExperience": {
+      "type": "integer"
+    },
+    "tech": {
+      "model": "tech"
+    },
+    "employee": {
+      "model": "employee"
+    }
+  }
+}

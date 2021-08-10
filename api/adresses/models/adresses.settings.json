@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "name": "Adresses"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Country": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Adress": {
+      "type": "text"
+    },
+    "Active": {
+      "type": "boolean"
+    }
+  }
+}
