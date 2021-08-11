@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "employee_projects",
   "info": {
-    "name": "Employee_Project",
+    "name": "Project",
     "description": ""
   },
   "options": {
@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "employee": {
-      "model": "employee"
-    },
     "Roll": {
       "type": "string"
     },
@@ -27,8 +24,11 @@
     "StartDate": {
       "type": "date"
     },
-    "projects": {
-      "collection": "projects"
+    "project": {
+      "model": "projects"
+    },
+    "employee": {
+      "model": "employee"
     }
   }
 }

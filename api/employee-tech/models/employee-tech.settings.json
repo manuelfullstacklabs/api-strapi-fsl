@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "employee_teches",
+  "collectionName": "EmployeeTech",
   "info": {
-    "name": "EmployeeTech",
+    "name": "Skills",
     "description": ""
   },
   "options": {

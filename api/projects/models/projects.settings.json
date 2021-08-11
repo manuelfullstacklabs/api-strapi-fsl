@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "Projects",
+    "name": "Projects of client",
     "description": ""
   },
   "options": {

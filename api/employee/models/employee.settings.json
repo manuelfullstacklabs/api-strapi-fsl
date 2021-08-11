@@ -71,6 +71,9 @@
     },
     "managerId": {
       "model": "employee"
+    },
+    "projects_of_client": {
+      "model": "projects"
     }
   }
 }
